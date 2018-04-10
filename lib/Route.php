@@ -56,6 +56,5 @@ class Route
             $this->ctrl = 'index';
             $this->action = 'index';
         }
-        $this->ctrl = ucfirst($this->ctrl);
     }
 }

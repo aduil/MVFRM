@@ -15,8 +15,8 @@ Registry::set('config', include('configs.php'));
 define('APP_ROOT', dirname(__FILE__));
 
 $route = \lib\Route::getInstance();
-$ctrlClass = $route->ctrl;
-$action = $route->action;
+$ctrlClass = ucfirst($route->ctrl);
+$action = $route->action . 'Action';
 $ctrlfile = '../app/ctrl/'.$ctrlClass.'Ctrl.php';
 $modelfile = '../app/model/'.$ctrlClass.'.php';
 $modelClass = '\\app\\model\\'.$ctrlClass;

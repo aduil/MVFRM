@@ -8,7 +8,7 @@ class IndexCtrl
 
     }
 
-    public function index()
+    public function indexAction()
     {
         $view = new \lib\view();
         $view->display();
