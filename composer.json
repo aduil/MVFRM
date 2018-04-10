@@ -1,0 +1,12 @@
+{
+    "name": "aduil/mvfrm",
+    "description": "A light framework for php.",
+    "authors": [
+        {
+            "name": "aduil",
+            "email": "mailtoliuda@gmail.com"
+        }
+    ],
+    "require": {
+    }
+}
